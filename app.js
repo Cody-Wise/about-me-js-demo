@@ -11,9 +11,17 @@ const showButton = document.getElementById('btn');
 
 const animal = document.getElementById ('animalDiv');
 
+const showButton2 = document.getElementById('btn2');
+
+const vg = document.getElementById ('vgDiv');
+
 
 showButton.addEventListener('click', () => {
 
     animal.classList.remove('hidden');
 });
 
+showButton2.addEventListener('click', () => {
+
+    vg.classList.remove('hidden');
+});
