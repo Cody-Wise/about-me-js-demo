@@ -34,18 +34,18 @@ Draw Wireframe
 
 Map out HTML elements to visualize
 
-html
- head
-  body
-   header
-    h1
-   main
-    section
-     h2
-     p
-    button
-    animalDiv
-    footer
+* html
+ * head
+  * body
+   * header
+    * h1
+   * main
+    * section
+     * h2
+     * p
+    * button
+    * animalDiv
+    * footer
 
 
 ## Rubric
