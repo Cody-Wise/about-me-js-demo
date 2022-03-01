@@ -44,6 +44,9 @@ Map out HTML elements to visualize
 - p
 - button
 - animalDiv
+- p
+- button2
+- vgDiv
 - footer
 
 ## Rubric
