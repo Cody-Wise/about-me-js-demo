@@ -18,10 +18,10 @@ const vg = document.getElementById ('vgDiv');
 
 showButton.addEventListener('click', () => {
 
-    animal.classList.remove('hidden');
+    animal.classList.toggle('hidden');
 });
 
 showButton2.addEventListener('click', () => {
 
-    vg.classList.remove('hidden');
+    vg.classList.toggle('hidden');
 });

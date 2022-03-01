@@ -59,6 +59,7 @@ header {
     background-color: rgb(235, 12, 12) ;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    color:white;
     
 }
 
@@ -93,6 +94,7 @@ footer {
     box-shadow: var(--shadow);
     height: var(--footer-height);
     padding-top: 10px;
+    color: white;
 }
 
 .hidden {
