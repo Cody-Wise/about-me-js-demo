@@ -27,7 +27,8 @@ body {
     --footer-height: 50px;
 
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    /* background-color: var(--color2); */
+    background-image: url("/assets/background.jpg");
 }
 
 main {
