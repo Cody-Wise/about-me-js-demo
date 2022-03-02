@@ -1,4 +1,4 @@
-## The Golden Rule:
+# The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -16,11 +16,47 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 Additional considerations:
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
+- Consider your data model.
+  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
+  - What are the key/value pairs?
+  - What arrays might you need?
+  - What needs to live in a persistence layer?
+- Is there some state we need to initialize?
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## Plan
+
+Draw Wireframe
+
+![Wireframe Drawing](assets/wireframe.jpg)
+
+Map out HTML elements to visualize
+
+- html
+- head
+- body
+- header
+- h1
+- main
+- section
+- h2
+- p
+- button
+- animalDiv
+- p
+- button2
+- vgDiv
+- footer
+
+## Rubric
+
+| App should include . . .                                                            |  10 |
+| :---------------------------------------------------------------------------------- | --: |
+| Bio data shows on page, including name, pronouns, and where you live                |   1 |
+| Favorite animal is hidden on page load                                              |   2 |
+| Button with event listener shows favorite animal data                               |   2 |
+| README file with plan                                                               |   2 |
+| Repo has a commit history with multiple commits and commit messages that make sense |   1 |
+| Link in About section of repo to deployed site in Netlify                           |   1 |
+| Work is done on a dev branch and a PR link is submitted to Canvas                   |   1 |
