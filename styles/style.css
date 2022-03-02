@@ -43,7 +43,6 @@ section {
     background-color: var(--color5);
     max-width: 80%;
     height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
